@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/n8_centroDeConvenciones/n8_centroDeConvenciones.iml" filepath="$PROJECT_DIR$/n8_centroDeConvenciones/n8_centroDeConvenciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nonograma/nonograma.iml" filepath="$PROJECT_DIR$/nonograma/nonograma.iml" />
     </modules>
   </component>
 </project>

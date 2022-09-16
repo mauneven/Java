@@ -1,0 +1,68 @@
+Reporte espacios
+Fecha: 31-01-2017
+Total espacios: 8
+====================================================
+Nombre: Auditorio central
+Tipo: Auditorio
+Capacidad: 450
+Tamaño: 70.0
+Costo por hora: 500000.0
+Cantidad de eventos: 2
+Responsable: Juan Grisales
+====================================================
+Nombre: Campo verde
+Tipo: Al aire libre
+Capacidad: 1000
+Tamaño: 500.0
+Costo por hora: 2000000.0
+Cantidad de eventos: 1
+Responsable: Maria Quintero
+====================================================
+Nombre: Gran salón
+Tipo: Salón
+Capacidad: 100
+Tamaño: 100.0
+Costo por hora: 800000.0
+Cantidad de eventos: 2
+Responsable: Camila Murcia
+====================================================
+Nombre: Salón de la paz
+Tipo: Salón
+Capacidad: 50
+Tamaño: 40.0
+Costo por hora: 200000.0
+Cantidad de eventos: 1
+Responsable: Camila Restrepo
+====================================================
+Nombre: Auditorio A
+Tipo: Auditorio
+Capacidad: 100
+Tamaño: 70.0
+Costo por hora: 310000.0
+Cantidad de eventos: 3
+Responsable: Juan Mancera
+====================================================
+Nombre: Salón-Restaurante
+Tipo: Restaurante
+Capacidad: 300
+Tamaño: 200.0
+Costo por hora: 1500000.0
+Cantidad de eventos: 1
+Responsable: Juan Grisales
+====================================================
+Nombre: Auditorio B
+Tipo: Auditorio
+Capacidad: 100
+Tamaño: 70.0
+Costo por hora: 310000.0
+Cantidad de eventos: 1
+Responsable: Laura Daza
+====================================================
+Nombre: Salón 30A
+Tipo: Salón
+Capacidad: 30
+Tamaño: 20.0
+Costo por hora: 100000.0
+Cantidad de eventos: 1
+Responsable: Mauricio Roa
+====================================================
