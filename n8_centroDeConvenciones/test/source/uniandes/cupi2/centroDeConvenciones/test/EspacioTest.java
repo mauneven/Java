@@ -1,6 +1,6 @@
 /**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogot? - Colombia)
+ * Departamento de Ingenier?a de Sistemas y Computaci?n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -16,7 +16,7 @@ import uniandes.cupi2.centroDeConvenciones.mundo.Fecha;
 import junit.framework.TestCase;
 
 /**
- * Clase usada para verificar que los métodos de la clase Espacio están correctamente implementados.
+ * Clase usada para verificar que los m?todos de la clase Espacio est?n correctamente implementados.
  */
 public class EspacioTest extends TestCase
 {
@@ -25,12 +25,12 @@ public class EspacioTest extends TestCase
     // -------------------------------------------------------------
 
     /**
-     * Espacio donde se harán las pruebas.
+     * Espacio donde se har?n las pruebas.
      */
     private Espacio espacio;
 
     // -------------------------------------------------------------
-    // Métodos
+    // M?todos
     // -------------------------------------------------------------
 
     /**
@@ -54,13 +54,13 @@ public class EspacioTest extends TestCase
         }
         catch( EspacioOcupadoException e )
         {
-            fail( "No debería lanzar excepción." );
+            fail( "No deber?a lanzar excepci?n." );
         }
     }
 
     /**
-     * Prueba 1: Prueba el método constructor de la clase Espacio. <br>
-     * <b>Métodos a probar:</b> <br>
+     * Prueba 1: Prueba el m?todo constructor de la clase Espacio. <br>
+     * <b>M?todos a probar:</b> <br>
      * Espacio<br>
      * darNombre<br>
      * darTipo<br>
@@ -76,20 +76,20 @@ public class EspacioTest extends TestCase
         setupEscenario1( );
         assertEquals( "El nombre no es el esperado.", "Super auditorio", espacio.darNombre( ) );
         assertEquals( "El tipo no es el esperado.", Espacio.TIPO_AUDITORIO, espacio.darTipo( ) );
-        assertTrue( "Debería tener internet.", espacio.tieneInternet( ) );
+        assertTrue( "Deber?a tener internet.", espacio.tieneInternet( ) );
         assertEquals( "La ruta no es la esperada.", "Ruta", espacio.darRutaFoto( ) );
         assertEquals( "La capacidad del espacio no es el esperado.", 300, espacio.darCapacidad( ) );
-        assertNotNull( "Debería tener una lista de eventos.", espacio.darEventos( ) );
-        assertEquals( "La lista de eventos debería estar vacía.", 0, espacio.darEventos( ).size( ) );
+        assertNotNull( "Deber?a tener una lista de eventos.", espacio.darEventos( ) );
+        assertEquals( "La lista de eventos deber?a estar vac?a.", 0, espacio.darEventos( ).size( ) );
     }
 
     /**
-     * Prueba 2: Prueba el método agregarEvento de la clase Espacio. <br>
-     * <b>Métodos a probar:</b> <br>
+     * Prueba 2: Prueba el m?todo agregarEvento de la clase Espacio. <br>
+     * <b>M?todos a probar:</b> <br>
      * agregarEvento<br>
      * darEventos<br>
      * <b> Casos de prueba: </b><br>
-     * 1. No existe ningún evento. <br>
+     * 1. No existe ning?n evento. <br>
      * 2. Existen eventos pero el evento a agregar no se cruza con ninguno evento existente. <br>
      * 3. Existen eventos y uno de los eventos tiene la misma fecha del evento a agregar. <br>
      * 4. Existen eventos y uno de los eventos se cruza con evento a agregar.
@@ -106,41 +106,41 @@ public class EspacioTest extends TestCase
         }
         catch( EspacioOcupadoException e )
         {
-            fail( "No debería lanzar excepción." );
+            fail( "No deber?a lanzar excepci?n." );
         }
 
         // Caso de prueba 2
         Fecha fecha2 = new Fecha( 2017, 2, 2, 10, 12 );
         try
         {
-            espacio.agregarEvento( "Tutoría apo2", "Tutorías de apo1 para estudiantes de apo2. ", 25, fecha2, "ruta2" );
-            assertEquals( "Debería haber un evento adicional.", 2, espacio.darEventos( ).size( ) );
+            espacio.agregarEvento( "Tutor?a apo2", "Tutor?as de apo1 para estudiantes de apo2. ", 25, fecha2, "ruta2" );
+            assertEquals( "Deber?a haber un evento adicional.", 2, espacio.darEventos( ).size( ) );
         }
         catch( EspacioOcupadoException e )
         {
-            fail( "No debería lanzar excepción." );
+            fail( "No deber?a lanzar excepci?n." );
         }
 
         fecha2 = new Fecha( 2017, 2, 2, 8, 9 );
         try
         {
-            espacio.agregarEvento( "Charla cupi2", "Charla de inducción. ", 120, fecha2, "ruta3" );
-            assertEquals( "Debería haber un evento adicional.", 3, espacio.darEventos( ).size( ) );
+            espacio.agregarEvento( "Charla cupi2", "Charla de inducci?n. ", 120, fecha2, "ruta3" );
+            assertEquals( "Deber?a haber un evento adicional.", 3, espacio.darEventos( ).size( ) );
         }
         catch( EspacioOcupadoException e )
         {
-            fail( "No debería lanzar excepción." );
+            fail( "No deber?a lanzar excepci?n." );
         }
 
         // Caso de prueba 3
         try
         {
-            espacio.agregarEvento( "Presentación", "Presentación sobre ...", 30, fecha, "ruta4" );
-            fail( "Debería lanzar excepción" );
+            espacio.agregarEvento( "Presentaci?n", "Presentaci?n sobre ...", 30, fecha, "ruta4" );
+            fail( "Deber?a lanzar excepci?n" );
         }
         catch( EspacioOcupadoException e )
         {
-            assertEquals( "No debería haber cambiado la cantidad de eventos.", 3, espacio.darEventos( ).size( ) );
+            assertEquals( "No deber?a haber cambiado la cantidad de eventos.", 3, espacio.darEventos( ).size( ) );
         }
 
         // Caso de prueba 4
@@ -148,23 +148,23 @@ public class EspacioTest extends TestCase
         try
         {
             espacio.agregarEvento( "Clase Apo", "Clase", 24, fecha2, "ruta5" );
-            fail( "Debería lanzar excepción" );
+            fail( "Deber?a lanzar excepci?n" );
         }
         catch( EspacioOcupadoException e )
         {
-            assertEquals( "No debería haber cambiado la cantidad de eventos.", 3, espacio.darEventos( ).size( ) );
+            assertEquals( "No deber?a haber cambiado la cantidad de eventos.", 3, espacio.darEventos( ).size( ) );
         }
 
     }
 
     /**
-     * Prueba 3: Prueba el método compararPorNombre de la clase Espacio. <br>
-     * <b>Métodos a probar:</b> <br>
+     * Prueba 3: Prueba el m?todo compararPorNombre de la clase Espacio. <br>
+     * <b>M?todos a probar:</b> <br>
      * compararPorNombre<br>
      * <b> Casos de prueba: </b><br>
      * 1. Los dos espacios tienen el mismo nombre.<br>
-     * 2. El espacio contra el cual se compara tiene un nombre lexicográficamente mayor. <br>
-     * 3. El espacio contra el cual se compara tiene un nombre lexicográficamente menor. <br>
+     * 2. El espacio contra el cual se compara tiene un nombre lexicogr?ficamente mayor. <br>
+     * 3. El espacio contra el cual se compara tiene un nombre lexicogr?ficamente menor. <br>
      */
     public void testCompararPorNombre( )
     {
@@ -178,17 +178,17 @@ public class EspacioTest extends TestCase
         // Caso de prueba 2
         Espacio espacio3 = new Espacio( "Super auditorio 1", Espacio.TIPO_SALA_COMPUTO, true, "ruta", 20, 350000, 10, "Lina" );
         respuesta = espacio.compararPorNombre( espacio3 );
-        assertEquals( "El segundo espacio tiene un nombre lexicográficamente mayor.", -1, respuesta );
+        assertEquals( "El segundo espacio tiene un nombre lexicogr?ficamente mayor.", -1, respuesta );
 
         // Caso de prueba 3
         Espacio espacio4 = new Espacio( "1 Super", Espacio.TIPO_SALA_COMPUTO, true, "ruta", 20, 350000, 10, "Lina" );
         respuesta = espacio.compararPorNombre( espacio4 );
-        assertEquals( "El segundo espacio tiene un nombre lexicográficamente menor.", 1, respuesta );
+        assertEquals( "El segundo espacio tiene un nombre lexicogr?ficamente menor.", 1, respuesta );
     }
 
     /**
-     * Prueba 4: Prueba el método compararPorCapacidad de la clase Espacio. <br>
-     * <b>Métodos a probar:</b> <br>
+     * Prueba 4: Prueba el m?todo compararPorCapacidad de la clase Espacio. <br>
+     * <b>M?todos a probar:</b> <br>
      * Espacio<br>
      * compararPorCapacidad<br>
      * <b> Casos de prueba: </b><br>
@@ -217,8 +217,8 @@ public class EspacioTest extends TestCase
     }
 
     /**
-     * Prueba 5: Prueba el método compararPorCantidadEventos de la clase Espacio. <br>
-     * <b>Métodos a probar:</b> <br>
+     * Prueba 5: Prueba el m?todo compararPorCantidadEventos de la clase Espacio. <br>
+     * <b>M?todos a probar:</b> <br>
      * compararPorCantidadEventos<br>
      * <b> Casos de prueba: </b><br>
      * 1. Los dos espacios tienen la misma cantidad de eventos. <br>
@@ -243,7 +243,7 @@ public class EspacioTest extends TestCase
         }
         catch( EspacioOcupadoException e )
         {
-            fail( "No debería lanzar excepción." );
+            fail( "No deber?a lanzar excepci?n." );
         }
         respuesta = espacio.compararPorCantidadEventos( espacio2 );
         assertEquals( "El segundo espacio tiene una cantidad de eventos mayor.", -1, respuesta );
@@ -257,7 +257,7 @@ public class EspacioTest extends TestCase
         }
         catch( EspacioOcupadoException e )
         {
-            fail( "No debería lanzar excepción." );
+            fail( "No deber?a lanzar excepci?n." );
         }
 
         respuesta = espacio.compararPorCantidadEventos( espacio2 );
@@ -266,7 +266,7 @@ public class EspacioTest extends TestCase
 
     /**
      * Prueba 6: Verifica que se busque correctamente un evento en la lista de eventos del espacio. <br>
-     * <b>Métodos a probar:</b> <br>
+     * <b>M?todos a probar:</b> <br>
      * tieneEvento<br>
      * 1. El evento a buscar existe en el espacio. <br>
      * 2. El evento a buscar no existe en el espacio. <br>
@@ -286,12 +286,12 @@ public class EspacioTest extends TestCase
     }
 
     /**
-     * Prueba 7: Prueba el método buscarEventoFecha de la clase Espacio <br>
-     * <b>Métodos a probar:</b> <br>
+     * Prueba 7: Prueba el m?todo buscarEventoFecha de la clase Espacio <br>
+     * <b>M?todos a probar:</b> <br>
      * buscarEventoFecha<br>
      * 1. El espacio no tiene eventos. <br>
      * 1. El espacio tiene un evento que se cruza con la fecha buscada. <br>
-     * 2. El espacio tiene eventos pero no tiene ningún evento que se cruce con la fecha buscada. <br>
+     * 2. El espacio tiene eventos pero no tiene ning?n evento que se cruce con la fecha buscada. <br>
      */
     public void testBuscarEventoFecha( )
     {
@@ -309,7 +309,7 @@ public class EspacioTest extends TestCase
         }
         catch( EspacioOcupadoException e )
         {
-            fail( "No debería lanzar excepción." );
+            fail( "No deber?a lanzar excepci?n." );
         }
 
         tieneEventoFecha = espacio.buscarEventoFecha( fecha );

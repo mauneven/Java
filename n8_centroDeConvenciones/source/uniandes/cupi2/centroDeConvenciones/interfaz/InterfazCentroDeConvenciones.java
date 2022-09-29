@@ -1,7 +1,7 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad de los Andes (Bogot� - Colombia)
- * Departamento de Ingenier�a de Sistemas y Computaci�n 
+ * Universidad de los Andes (Bogota? - Colombia)
+ * Departamento de Ingenier?a de Sistemas y Computaci?n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -14,23 +14,19 @@ package uniandes.cupi2.centroDeConvenciones.interfaz;
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.io.File;
-import java.io.FileInputStream;
+import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Properties;
 
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
-import uniandes.cupi2.centroDeConvenciones.mundo.CentroDeConvenciones;
-import uniandes.cupi2.centroDeConvenciones.mundo.Espacio;
-import uniandes.cupi2.centroDeConvenciones.mundo.EspacioOcupadoException;
-import uniandes.cupi2.centroDeConvenciones.mundo.FormatoArchivoException;
-import uniandes.cupi2.centroDeConvenciones.mundo.PersistenciaException;
+import uniandes.cupi2.centroDeConvenciones.mundo.*;
+
 
 /**
- * Ventana principal de la aplicaci�n.
+ * Ventana principal de la aplicaci?n.
  */
 public class InterfazCentroDeConvenciones extends JFrame
 {
@@ -39,7 +35,7 @@ public class InterfazCentroDeConvenciones extends JFrame
     // -----------------------------------------------------------------
 
     /**
-     * Constante que representa la ubicaci�n del archivo con los datos de las recetas.
+     * Constante que representa la ubicaci?n del archivo con los datos de las recetas.
      */
     private final static String ARCHIVO_SERIALIZACION = "./data/centroDeConvenciones.data";
 
@@ -72,12 +68,12 @@ public class InterfazCentroDeConvenciones extends JFrame
     private PanelListaEspacios panelListaEspacios;
 
     /**
-     * Panel con la informaci�n detalla de un espacio.
+     * Panel con la informaci?n detalla de un espacio.
      */
     private PanelInformacionEspacio panelInformacionEspacio;
 
     /**
-     * Panel con las operaciones de ordenamiento y b�squeda.
+     * Panel con las operaciones de ordenamiento y b?squeda.
      */
     private PanelOperaciones panelOperaciones;
 
@@ -101,10 +97,12 @@ public class InterfazCentroDeConvenciones extends JFrame
         catch( FormatoArchivoException e )
         {
             JOptionPane.showMessageDialog( this, "Error en el formato del archivo.", "Centro de convenciones", JOptionPane.ERROR_MESSAGE );
+        } catch (IOException | ClassNotFoundException e) {
+            throw new RuntimeException(e);
         }
 
         setLayout( new BorderLayout( ) );
-        setSize( 900, 580 );
+        setSize( 950, 600 );
         setResizable( false );
         setDefaultCloseOperation( JFrame.DISPOSE_ON_CLOSE );
         setTitle( "Centro de convenciones" );
@@ -136,11 +134,11 @@ public class InterfazCentroDeConvenciones extends JFrame
     }
 
     // -----------------------------------------------------------------
-    // M�todos
+    // M?todos
     // -----------------------------------------------------------------
 
     /**
-     * Este m�todo se encarga de salvar la informaci�n del sistema, justo antes de cerrar la aplicaci�n.
+     * Este m?todo se encarga de salvar la informaci?n del sistema, justo antes de cerrar la aplicaci?n.
      */
     public void dispose( )
     {
@@ -152,7 +150,7 @@ public class InterfazCentroDeConvenciones extends JFrame
         catch( Exception e )
         {
             setVisible( true );
-            int respuesta = JOptionPane.showConfirmDialog( this, "Problemas salvando la informaci�n del sistema:\n" + e.getMessage( ) + "." + "\n�Quiere cerrar el programa sin salvar?", "Error", JOptionPane.YES_NO_OPTION );
+            int respuesta = JOptionPane.showConfirmDialog( this, "Problemas salvando la informaci?n del sistema:\n" + e.getMessage( ) + "." + "\n?Quiere cerrar el programa sin salvar?", "Error", JOptionPane.YES_NO_OPTION );
             if( respuesta == JOptionPane.YES_OPTION )
             {
                 super.dispose( );
@@ -169,7 +167,7 @@ public class InterfazCentroDeConvenciones extends JFrame
     }
 
     /**
-     * Actualiza la informaci�n del espacio seleccionado.
+     * Actualiza la informaci?n del espacio seleccionado.
      * @param pEspacio Espacio que ha sido seleccionado. pEspacio != null.
      */
     public void actualizarInfoEspacio( Espacio pEspacio )
@@ -205,7 +203,7 @@ public class InterfazCentroDeConvenciones extends JFrame
     }
 
     /**
-     * Busca el espacio con el nombre dado por par�metro.
+     * Busca el espacio con el nombre dado por par?metro.
      */
     public void buscarPorNombre( )
     {
@@ -221,17 +219,17 @@ public class InterfazCentroDeConvenciones extends JFrame
             }
             else
             {
-                JOptionPane.showMessageDialog( this, "No se encontr� un espacio con el nombre dado.", "Buscar espacio", JOptionPane.ERROR_MESSAGE );
+                JOptionPane.showMessageDialog( this, "No se encontr? un espacio con el nombre dado.", "Buscar espacio", JOptionPane.ERROR_MESSAGE );
             }
         }
         else if( pNombre != null && pNombre.isEmpty( ) )
         {
-            JOptionPane.showMessageDialog( this, "Debe ingresar un valor para realizar la b�squeda.", "Buscar espacio", JOptionPane.ERROR_MESSAGE );
+            JOptionPane.showMessageDialog( this, "Debe ingresar un valor para realizar la b?squeda.", "Buscar espacio", JOptionPane.ERROR_MESSAGE );
         }
     }
 
     /**
-     * Busca los espacios con el evento dado por par�metro.
+     * Busca los espacios con el evento dado por par?metro.
      */
 
     public void buscarPorEvento( )
@@ -247,17 +245,17 @@ public class InterfazCentroDeConvenciones extends JFrame
             }
             else
             {
-                JOptionPane.showMessageDialog( this, "No existe ning�n espacio con el evento dado.", "Buscar espacios", JOptionPane.ERROR_MESSAGE );
+                JOptionPane.showMessageDialog( this, "No existe ning?n espacio con el evento dado.", "Buscar espacios", JOptionPane.ERROR_MESSAGE );
             }
         }
         else if( pEvento != null && pEvento.isEmpty( ) )
         {
-            JOptionPane.showMessageDialog( this, "Debe ingresar un valor para realizar la b�squeda.", "Buscar espacios", JOptionPane.ERROR_MESSAGE );
+            JOptionPane.showMessageDialog( this, "Debe ingresar un valor para realizar la b?squeda.", "Buscar espacios", JOptionPane.ERROR_MESSAGE );
         }
     }
 
     /**
-     * Busca los espacios con eventos cuya fecha coincide con la dada por par�metro.
+     * Busca los espacios con eventos cuya fecha coincide con la dada por par?metro.
      */
     public void buscarEventosPorFecha( )
     {
@@ -272,12 +270,12 @@ public class InterfazCentroDeConvenciones extends JFrame
             }
             else
             {
-                JOptionPane.showMessageDialog( this, "No existe ning�n espacio con un evento en la fecha dada.", "Buscar espacios", JOptionPane.ERROR_MESSAGE );
+                JOptionPane.showMessageDialog( this, "No existe ning?n espacio con un evento en la fecha dada.", "Buscar espacios", JOptionPane.ERROR_MESSAGE );
             }
         }
         else if( pFecha != null && pFecha.isEmpty( ) )
         {
-            JOptionPane.showMessageDialog( this, "Debe ingresar un valor para realizar la b�squeda.", "Buscar espacios", JOptionPane.ERROR_MESSAGE );
+            JOptionPane.showMessageDialog( this, "Debe ingresar un valor para realizar la b?squeda.", "Buscar espacios", JOptionPane.ERROR_MESSAGE );
         }
     }
 
@@ -289,7 +287,7 @@ public class InterfazCentroDeConvenciones extends JFrame
      * @param pRutaImagen Ruta de la imagen del espacio. pRutaImagen != null && pRutaImagen != "".
      * @param pCapacidad Capacidad del espacio. pCapacidad > 0.
      * @param pCostoHora Costo por hora del espacio. pCostoHora > 0.
-     * @param pTamanio Tama�o del espacio. pTamanio > 0.
+     * @param pTamanio Tama?o del espacio. pTamanio > 0.
      * @param pResponsable Nombre del responsable del espacio. pResponsable != null && pResponsable != "".
      */
     public void agregarEspacio( String pNombre, String pTipo, boolean pInternet, String pRutaImagen, int pCapacidad, double pCostoHora, double pTamanio, String pResponsable )
@@ -310,11 +308,11 @@ public class InterfazCentroDeConvenciones extends JFrame
     /**
      * Agrega un evento al espacio dado.
      * @param pNombreEvento Nombre del evento. pNombreEvento != null && pNombreEvento != "".
-     * @param pDescripcion Descripci�n del evento. pDescripcion != null && pDescripcion != "".
+     * @param pDescripcion Descripci?n del evento. pDescripcion != null && pDescripcion != "".
      * @param pAsistentes Cantidad de asistentes del evento. pAsistentes != null && pAsistentes != "".
-     * @param pAnio A�o en que el evento se realiza. pAnio >= 2017 && pAnio <= 2020.
+     * @param pAnio A?o en que el evento se realiza. pAnio >= 2017 && pAnio <= 2020.
      * @param pMes Mes en que el evento se realiza. pMes >= 1 && pMes <= 12.
-     * @param pDia D�a en que el evento se realiza. pDia >= 1 && pDia <= 31.
+     * @param pDia D?a en que el evento se realiza. pDia >= 1 && pDia <= 31.
      * @param pHoraInicio Hora de inicio del evento. pHoraInicio >= 8 && pHoraInicio <= 18.
      * @param pHoraFin Hora de fin del evento. pHoraFin >= 8 && pHoraFin <= 18.
      * @param pRutaImagenPublicidad Ruta de la imagen de la publicidad del evento. pRutaImagenPublicidad != null && pRutaImagenPublicidad != "".
@@ -356,7 +354,7 @@ public class InterfazCentroDeConvenciones extends JFrame
     }
 
     /**
-     * Busca el espacio m�s usado del centro de convenciones.
+     * Busca el espacio m?s usado del centro de convenciones.
      */
     public void buscarEspacioMasUsado( )
     {
@@ -395,11 +393,11 @@ public class InterfazCentroDeConvenciones extends JFrame
     }
 
     // -----------------------------------------------------------------
-    // Puntos de Extensi�n
+    // Puntos de Extensi?n
     // -----------------------------------------------------------------
 
     /**
-     * M�todo para la extensi�n 1.
+     * M?todo para la extensi?n 1.
      */
     public void reqFuncOpcion1( )
     {
@@ -408,7 +406,7 @@ public class InterfazCentroDeConvenciones extends JFrame
     }
 
     /**
-     * M�todo para la extensi�n 2.
+     * M?todo para la extensi?n 2.
      */
     public void reqFuncOpcion2( )
     {
@@ -420,7 +418,7 @@ public class InterfazCentroDeConvenciones extends JFrame
     // Main
     // -----------------------------------------------------------------
     /**
-     * Este m�todo ejecuta la aplicaci�n, creando una nueva interfaz.
+     * Este m?todo ejecuta la aplicaci?n, creando una nueva interfaz.
      * @param pArgs No son necesarios.
      */
     public static void main( String[] pArgs )

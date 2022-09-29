@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEspacio.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEvento.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoVerDetalleEvento.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/InterfazCentroDeConvenciones.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelImagen.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelInformacionEspacio.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelListaEspacios.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOpciones.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOperaciones.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/CentroDeConvenciones.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/Espacio.java" charset="ISO-8859-2" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/EspacioOcupadoException.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/EspacioOcupadoException.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/EspacioTieneEventoFechaException.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/EspacioTieneEventoFechaException.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/Evento.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/Fecha.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/FormatoArchivoException.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/FormatoArchivoException.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/PersistenciaException.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/PersistenciaException.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/CentroDeConvencionesTest.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/EspacioTest.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/EventoTest.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/FechaTest.java" charset="ISO-8859-1" />
+  </component>
+</project>

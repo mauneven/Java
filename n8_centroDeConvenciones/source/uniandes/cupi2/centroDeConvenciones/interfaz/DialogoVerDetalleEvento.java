@@ -1,7 +1,7 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogot? - Colombia)
+ * Departamento de Ingenier?a de Sistemas y Computaci?n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -38,7 +38,7 @@ import uniandes.cupi2.centroDeConvenciones.mundo.Espacio;
 import uniandes.cupi2.centroDeConvenciones.mundo.Evento;
 
 /**
- * Diálogo que permite ver el detalle de un evento.
+ * Di?logo que permite ver el detalle de un evento.
  */
 public class DialogoVerDetalleEvento extends JDialog implements ActionListener
 {
@@ -47,7 +47,7 @@ public class DialogoVerDetalleEvento extends JDialog implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Constante que representa la acción de aceptar.
+     * Constante que representa la acci?n de aceptar.
      */
     public final static String ACEPTAR = "Aceptar";
     
@@ -56,7 +56,7 @@ public class DialogoVerDetalleEvento extends JDialog implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Ventana principal de la aplicación.
+     * Ventana principal de la aplicaci?n.
      */
     private InterfazCentroDeConvenciones principal;
 
@@ -85,7 +85,7 @@ public class DialogoVerDetalleEvento extends JDialog implements ActionListener
     private JTextField txtFecha;
 
     /**
-     * Área de texto con la descripción del evento.
+     * ?rea de texto con la descripci?n del evento.
      */
     private JTextArea areaDescripcion;
 
@@ -95,7 +95,7 @@ public class DialogoVerDetalleEvento extends JDialog implements ActionListener
     private JScrollPane scrollDescripcion; 
 
     /**
-     * Botón Cancelar.
+     * Bot?n Cancelar.
      */
     private JButton btnAceptar;
 
@@ -104,15 +104,15 @@ public class DialogoVerDetalleEvento extends JDialog implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Constructor del diálogo.
-     * @param pPrincipal Ventana principal de la aplicación. pPrincipal != null.
+     * Constructor del di?logo.
+     * @param pPrincipal Ventana principal de la aplicaci?n. pPrincipal != null.
      * @param pEvento Evento del que se desea visualizar el detalle. pEvento != null.
      */
     public DialogoVerDetalleEvento( InterfazCentroDeConvenciones pPrincipal, Evento pEvento )
     {
         principal = pPrincipal;
 
-        setTitle( "Ver información del evento" );
+        setTitle( "Ver informaci?n del evento" );
         setSize( 350, 500 );
         setResizable(false);
         setLayout( new BorderLayout( ) );
@@ -170,7 +170,7 @@ public class DialogoVerDetalleEvento extends JDialog implements ActionListener
         scrollDescripcion.setPreferredSize( new Dimension( 0, 130 ) );
         scrollDescripcion.setHorizontalScrollBarPolicy( JScrollPane.HORIZONTAL_SCROLLBAR_NEVER );
         scrollDescripcion.setVerticalScrollBarPolicy( JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED );
-        scrollDescripcion.setBorder( new TitledBorder( "Descripción: " ) );
+        scrollDescripcion.setBorder( new TitledBorder( "Descripci?n: " ) );
         
         
         JPanel panelDescripcion = new JPanel( );
@@ -189,12 +189,12 @@ public class DialogoVerDetalleEvento extends JDialog implements ActionListener
     }
 
     // -----------------------------------------------------------------
-    // Métodos
+    // M?todos
     // -----------------------------------------------------------------
 
     /**
      * Manejo de los eventos de los botones.
-     * @param pEvento Acción que generó el evento.
+     * @param pEvento Acci?n que gener? el evento.
      */
     public void actionPerformed( ActionEvent pEvento )
     {

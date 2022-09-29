@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="JavaSE-1.7" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="junit.jar" scope="COMPILE">
+		<srcroot url="jar://$MODULE_DIR$/test/lib/junit.jar!/"/>
+		<srcroot url="jar://$MODULE_DIR$/test/lib/junit.jar!/"/>
+		<srcroot url="jar://$MODULE_DIR$/test/lib/junit.jar!/junit"/>
+		<relative-module-src project-related="jar://$PROJECT_DIR$/test/lib/junit.jar!/"/>
+		<relative-module-src project-related="jar://$PROJECT_DIR$/test/lib/junit.jar!/"/>
+		<relative-module-src project-related="jar://$PROJECT_DIR$/test/lib/junit.jar!/junit"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/test/lib/junit.jar!/"/>
+	</lib>
+</component>

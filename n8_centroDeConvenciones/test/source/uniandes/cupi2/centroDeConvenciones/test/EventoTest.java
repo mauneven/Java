@@ -1,6 +1,6 @@
 /**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogot? - Colombia)
+ * Departamento de Ingenier?a de Sistemas y Computaci?n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -15,7 +15,7 @@ import uniandes.cupi2.centroDeConvenciones.mundo.Evento;
 import uniandes.cupi2.centroDeConvenciones.mundo.Fecha;
 
 /**
- * Clase usada para verificar que los métodos de la clase Evento están correctamente implementados.
+ * Clase usada para verificar que los m?todos de la clase Evento est?n correctamente implementados.
  */
 public class EventoTest extends TestCase
 {
@@ -24,12 +24,12 @@ public class EventoTest extends TestCase
     // -------------------------------------------------------------
 
     /**
-     * Evento donde se harán las pruebas.
+     * Evento donde se har?n las pruebas.
      */
     private Evento evento;
 
     // -------------------------------------------------------------
-    // Métodos
+    // M?todos
     // -------------------------------------------------------------
 
     /**
@@ -38,12 +38,12 @@ public class EventoTest extends TestCase
     public void setupEscenario1( )
     {
         Fecha fecha = new Fecha( 2017, 05, 13, 8, 18 );
-        evento = new Evento( "CupiCongreso", "Primer congreso nacional de algorítmica y programación uniandina.", 300, fecha, "cupicongreso.png" );
+        evento = new Evento( "CupiCongreso", "Primer congreso nacional de algor?tmica y programaci?n uniandina.", 300, fecha, "cupicongreso.png" );
     }
 
     /**
-     * Prueba 1: Prueba el método constructor de la clase Evento. <br>
-     * <b>Métodos a probar:</b> <br>
+     * Prueba 1: Prueba el m?todo constructor de la clase Evento. <br>
+     * <b>M?todos a probar:</b> <br>
      * Evento<br>
      * darNombre<br>
      * darDescripcion<br>
@@ -57,7 +57,7 @@ public class EventoTest extends TestCase
     {
         setupEscenario1( );
         assertEquals( "El nombre no corresponde.", "CupiCongreso", evento.darNombre( ) );
-        assertEquals( "La descripción no corresponde.", "Primer congreso nacional de algorítmica y programación uniandina.", evento.darDescripcion( ) );
+        assertEquals( "La descripci?n no corresponde.", "Primer congreso nacional de algor?tmica y programaci?n uniandina.", evento.darDescripcion( ) );
         assertEquals( "La cantidad de asistentes no corresponde.", 300, evento.darCantidadAsistentes( ) );
         assertEquals( "La fecha no corresponde.", 2017, evento.darFecha( ).darAnio( ) );
         assertEquals( "La fecha no corresponde.", 5, evento.darFecha( ).darMes( ) );

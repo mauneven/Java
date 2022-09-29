@@ -1,58 +1,253 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb3221cb-a512-4d3c-8c29-ab3a6551c993" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/Java.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="706434e8-796d-4232-a440-98424dc81d6a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Ejercicios/src/com/ejerciciosV2/Ejercicio1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicios/src/com/ejerciciosV2/Ejercicio2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ejercicios/src/com/ejerciciosV2/TresNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n8_centroDeConvenciones.eml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/n8_centroDeConvenciones.userlibraries" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/CentroDeConvenciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/Espacio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/EspacioOcupadoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/EspacioTieneEventoFechaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/Fecha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/mundo/PersistenciaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEspacio.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEspacio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEvento.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEvento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoVerDetalleEvento.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoVerDetalleEvento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/InterfazCentroDeConvenciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/InterfazCentroDeConvenciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelImagen.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelImagen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelInformacionEspacio.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelInformacionEspacio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelListaEspacios.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelListaEspacios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOpciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOpciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOperaciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOperaciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/mundo/FormatoArchivoException.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/mundo/FormatoArchivoException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/test/CentroDeConvencionesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/test/CentroDeConvencionesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/test/EspacioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/test/EspacioTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/test/EventoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/test/EventoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/test/FechaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/uniandes/cupi2/centroDeConvenciones/test/FechaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/n8_centroDeConvenciones.iml" beforeDir="false" afterPath="$PROJECT_DIR$/n8_centroDeConvenciones.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEspacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEspacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEvento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoVerDetalleEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoVerDetalleEvento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/InterfazCentroDeConvenciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/InterfazCentroDeConvenciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelImagen.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelImagen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelInformacionEspacio.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelInformacionEspacio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelListaEspacios.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelListaEspacios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOpciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOpciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOperaciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOperaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/CentroDeConvencionesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/CentroDeConvencionesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/EspacioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/EspacioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/EventoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/EventoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/FechaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/FechaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/classes/interfaz/Arriba.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/classes/interfaz/Arriba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/classes/interfaz/BotonesCentro.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/classes/interfaz/BotonesCentro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/classes/interfaz/Derecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/classes/interfaz/Derecha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/classes/interfaz/InterfazNonograma.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/classes/interfaz/InterfazNonograma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/classes/interfaz/Izquierda.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/classes/interfaz/Izquierda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/classes/interfaz/PanelOpciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/classes/interfaz/PanelOpciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/classes/interfaz/PanelTablero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/classes/interfaz/PanelTablero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/classes/mundo/MatrizTablero.class" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/classes/mundo/MatrizTablero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/source/interfaz/BotonesCentro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/source/interfaz/BotonesCentro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/source/interfaz/PanelOpciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/source/interfaz/PanelOpciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/source/interfaz/PanelTablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/source/interfaz/PanelTablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nonograma/source/mundo/MatrizTablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nonograma/source/mundo/MatrizTablero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MacroExpansionManager">
-    <option name="directoryName" value="y7i20ai5" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectId" id="2ErPp04DAFeIsixa6mjYZRcZ71V" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2FHe9T7Xaag0ampjyiGLw9NSMWS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mauneven/Documents&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mauneven\Documents\mauneven\Java\n8_centroDeConvenciones\source\uniandes\cupi2\centroDeConvenciones\mundo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.InterfazCentroDeConvenciones">
+    <configuration name="InterfazCentroDeConvenciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uniandes.cupi2.centroDeConvenciones.interfaz.InterfazCentroDeConvenciones" />
+      <module name="n8_centroDeConvenciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uniandes.cupi2.centroDeConvenciones.mundo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CentroDeConvencionesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="n8_centroDeConvenciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uniandes.cupi2.centroDeConvenciones.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uniandes.cupi2.centroDeConvenciones.test" />
+      <option name="MAIN_CLASS_NAME" value="uniandes.cupi2.centroDeConvenciones.test.CentroDeConvencionesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CentroDeConvencionesTest.testBuscarEspacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="n8_centroDeConvenciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uniandes.cupi2.centroDeConvenciones.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uniandes.cupi2.centroDeConvenciones.test" />
+      <option name="MAIN_CLASS_NAME" value="uniandes.cupi2.centroDeConvenciones.test.CentroDeConvencionesTest" />
+      <option name="METHOD_NAME" value="testBuscarEspacio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CentroDeConvencionesTest.testEspacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="n8_centroDeConvenciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uniandes.cupi2.centroDeConvenciones.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uniandes.cupi2.centroDeConvenciones.test" />
+      <option name="MAIN_CLASS_NAME" value="uniandes.cupi2.centroDeConvenciones.test.CentroDeConvencionesTest" />
+      <option name="METHOD_NAME" value="testEspacio" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uniandes.cupi2.centroDeConvenciones in n8_centroDeConvenciones" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="n8_centroDeConvenciones" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uniandes.cupi2.centroDeConvenciones.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uniandes.cupi2.centroDeConvenciones" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InterfazCentroDeConvenciones" />
+        <item itemvalue="JUnit.CentroDeConvencionesTest" />
+        <item itemvalue="JUnit.uniandes.cupi2.centroDeConvenciones in n8_centroDeConvenciones" />
+        <item itemvalue="JUnit.CentroDeConvencionesTest.testBuscarEspacio" />
+        <item itemvalue="JUnit.CentroDeConvencionesTest.testEspacio" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bb3221cb-a512-4d3c-8c29-ab3a6551c993" name="Changes" comment="" />
-      <created>1663350915534</created>
+      <changelist id="706434e8-796d-4232-a440-98424dc81d6a" name="Changes" comment="" />
+      <created>1664153292019</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663350915534</updated>
+      <updated>1664153292019</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/CentroDeConvencionesTest.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/CentroDeConvencionesTest.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/CentroDeConvencionesTest.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/source/uniandes/cupi2/centroDeConvenciones/test/CentroDeConvencionesTest.java</url>
+          <line>303</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

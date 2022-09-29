@@ -15,6 +15,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.TitledBorder;
 
+import interfazbrutal.Interfazbrutalbro;
+
 public class PanelTablero extends JPanel implements ActionListener{
 
 	private static final long serialVersionUID = 1L;
@@ -47,7 +49,7 @@ public class PanelTablero extends JPanel implements ActionListener{
 
 	private String[] respuestas;
 
-	public PanelTablero(InterfazNonograma pPrincipal) {
+	public PanelTablero(Interfazbrutalbro pPrincipal) {
 		
 		principal = pPrincipal;
 		archivoElegido = null;

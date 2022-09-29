@@ -1,12 +1,12 @@
 /**~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
- * Licenciado bajo el esquema Academic Free License version 2.1 
+ * Departamento de Ingeniería de Sistemas y Computación
+ * Licenciado bajo el esquema Academic Free License version 2.1
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
  * Ejercicio: n7_cupiViajes
  * Autor: Equipo Cupi2 2015
- * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
+ * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
 package uniandes.cupi2.centroDeConvenciones.test;
 
@@ -15,10 +15,9 @@ import java.util.ArrayList;
 import uniandes.cupi2.centroDeConvenciones.mundo.CentroDeConvenciones;
 import uniandes.cupi2.centroDeConvenciones.mundo.Espacio;
 import uniandes.cupi2.centroDeConvenciones.mundo.EspacioOcupadoException;
-import uniandes.cupi2.centroDeConvenciones.mundo.Fecha;
-import uniandes.cupi2.centroDeConvenciones.mundo.FormatoArchivoException;
-import uniandes.cupi2.centroDeConvenciones.mundo.PersistenciaException;
 import junit.framework.TestCase;
+
+
 
 /**
  * Clase usada para verificar que los métodos de la clase CentroDeConvenciones están correctamente implementados.
@@ -165,7 +164,7 @@ public class CentroDeConvencionesTest extends TestCase
         // Caso de prueba 2
         try
         {
-            
+
             eventoAgregado = centroConvenciones.agregarEventoAEspacio( "Auditorio A", "Evento", "Evento prueba", 30, 2018, 10, 21, 8, 18, "ruta" );
             fail( "Debería lanzar excepción." );
         }

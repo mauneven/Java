@@ -1,7 +1,7 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogot? - Colombia)
+ * Departamento de Ingenier?a de Sistemas y Computaci?n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -40,7 +40,7 @@ import uniandes.cupi2.centroDeConvenciones.mundo.Espacio;
 import uniandes.cupi2.centroDeConvenciones.mundo.Evento;
 
 /**
- * Panel con la información detallada de un espacio.
+ * Panel con la informaci?n detallada de un espacio.
  */
 public class PanelInformacionEspacio extends JPanel implements ActionListener
 {
@@ -63,7 +63,7 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Ventana principal de la aplicación.
+     * Ventana principal de la aplicaci?n.
      */
     private InterfazCentroDeConvenciones interfaz;
 
@@ -87,7 +87,7 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
     private JTextField txtCapacidad;
     
     /**
-     * Campo de texto con el tamaño del espacio.
+     * Campo de texto con el tama?o del espacio.
      */
     private JTextField txtTamanio;
     
@@ -117,12 +117,12 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
     private JScrollPane scrollEventos;
 
     /**
-     * Botón para agregar un nuevo evento.
+     * Bot?n para agregar un nuevo evento.
      */
     private JButton botonAgregar;
 
     /**
-     * Botón para ver en detalle del evento seleccionado.
+     * Bot?n para ver en detalle del evento seleccionado.
      */
     private JButton botonVerDetalle;
 
@@ -132,7 +132,7 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
 
     /**
      * Constructor del panel.
-     * @param pPrincipal Ventana principal de la aplicación. pPrincipal != null.
+     * @param pPrincipal Ventana principal de la aplicaci?n. pPrincipal != null.
      */
     public PanelInformacionEspacio( InterfazCentroDeConvenciones pPrincipal )
     {
@@ -173,7 +173,7 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
         txtCapacidad.setEditable( false );
         panelInfo1.add( txtCapacidad );
 
-        JLabel etiquetaTamanio = new JLabel( " Tamaño (m2):  " );
+        JLabel etiquetaTamanio = new JLabel( " Tama?o (m2):  " );
         etiquetaTamanio.setHorizontalAlignment( JLabel.LEFT );
         panelInfo1.add( etiquetaTamanio );
         txtTamanio = new JTextField( );
@@ -194,7 +194,7 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
         txtResponsable.setEditable( false );
         panelInfo1.add( txtResponsable );
 
-        JLabel etiquetaTiempo = new JLabel( "¿Tiene internet?" );
+        JLabel etiquetaTiempo = new JLabel( "?Tiene internet?" );
         etiquetaTiempo.setHorizontalAlignment( JLabel.LEFT );
         panelInfo1.add( etiquetaTiempo );
         chkInternet = new JCheckBox( "" );
@@ -241,12 +241,12 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
     }
 
     // -----------------------------------------------------------------
-    // Métodos
+    // M?todos
     // -----------------------------------------------------------------
 
     /**
-     * Actualiza la información del panel con el espacio que entra por parámetro.
-     * @param pEspacio Espacio cuya información debe ser mostrada. pEspacio != null.
+     * Actualiza la informaci?n del panel con el espacio que entra por par?metro.
+     * @param pEspacio Espacio cuya informaci?n debe ser mostrada. pEspacio != null.
      */
     public void actualizarInformacion( Espacio pEspacio )
     {
@@ -266,7 +266,7 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
     }
 
     /**
-     * Actualiza la lista de eventos con la lista recibida por parámetro.
+     * Actualiza la lista de eventos con la lista recibida por par?metro.
      * @param pNuevaLista Lista con los eventos. pNuevaLista != null.
      */
     public void refrescarLista( ArrayList pNuevaLista )
@@ -280,7 +280,7 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
 
     /**
      * Manejo de los eventos de los botones.
-     * @param pEvento Acción que generó el evento.
+     * @param pEvento Acci?n que gener? el evento.
      */
     public void actionPerformed( ActionEvent pEvento )
     {
@@ -303,8 +303,8 @@ public class PanelInformacionEspacio extends JPanel implements ActionListener
     }
 
     /**
-     * Método para atender el evento cuando un usuario selecciona un evento de la lista.
-     * @param pEvento Evento de selección de un elemento de la lista de eventos. pEvento != null.
+     * M?todo para atender el evento cuando un usuario selecciona un evento de la lista.
+     * @param pEvento Evento de selecci?n de un elemento de la lista de eventos. pEvento != null.
      */
     public void valueChanged( ListSelectionEvent pEvento )
     {

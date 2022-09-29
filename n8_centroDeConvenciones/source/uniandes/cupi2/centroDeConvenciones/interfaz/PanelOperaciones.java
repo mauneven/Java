@@ -1,7 +1,7 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogot? - Colombia)
+ * Departamento de Ingenier?a de Sistemas y Computaci?n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -24,7 +24,7 @@ import javax.swing.JRadioButton;
 import javax.swing.border.TitledBorder;
 
 /**
- * Panel con las operaciones de ordenamiento y búsqueda.
+ * Panel con las operaciones de ordenamiento y b?squeda.
  */
 public class PanelOperaciones extends JPanel implements ActionListener
 {
@@ -44,42 +44,42 @@ public class PanelOperaciones extends JPanel implements ActionListener
     private final static String BUSCAR = "Buscar";
 
     /**
-     * Constante que representa la opción de ordenamiento por nombre.
+     * Constante que representa la opci?n de ordenamiento por nombre.
      */
     private final static String ORDENAR_NOMBRE = "Nombre";
 
     /**
-     * Constante que representa la opción de ordenamiento por capacidad.
+     * Constante que representa la opci?n de ordenamiento por capacidad.
      */
     private final static String ORDENAR_CAPACIDAD = "Capacidad";
 
     /**
-     * Constante que representa la opción de ordenamiento por cantidad de eventos.
+     * Constante que representa la opci?n de ordenamiento por cantidad de eventos.
      */
     private final static String ORDENAR_CANTIDAD_EVENTOS = "Cantidad de eventos";
 
     /**
-     * Constante que representa la opción de búsqueda por nombre.
+     * Constante que representa la opci?n de b?squeda por nombre.
      */
     private final static String BUSCAR_NOMBRE = "Nombre";
 
     /**
-     * Constante que representa la opción de búsqueda por evento.
+     * Constante que representa la opci?n de b?squeda por evento.
      */
     private final static String BUSCAR_EVENTO = "Evento";
 
     /**
-     * Constante que representa la opción de búsqueda del espacio más usado.
+     * Constante que representa la opci?n de b?squeda del espacio m?s usado.
      */
-    private final static String BUSCAR_MAS_USADO = "Más usado";
+    private final static String BUSCAR_MAS_USADO = "M?s usado";
 
     /**
-     * Constante que representa la opción de búsqueda del espacio menos usado.
+     * Constante que representa la opci?n de b?squeda del espacio menos usado.
      */
     private final static String BUSCAR_MENOS_USADO = "Menos usado";
 
     /**
-     * Constante que representa la opción de búsqueda por fecha.
+     * Constante que representa la opci?n de b?squeda por fecha.
      */
     private final static String BUSCAR_FECHA = "Fecha";
 
@@ -88,7 +88,7 @@ public class PanelOperaciones extends JPanel implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Ventana principal de la aplicación.
+     * Ventana principal de la aplicaci?n.
      */
     private InterfazCentroDeConvenciones principal;
 
@@ -102,17 +102,17 @@ public class PanelOperaciones extends JPanel implements ActionListener
     private JComboBox comboOrdenamiento;
 
     /**
-     * Combo box con las opciones de búsqueda.
+     * Combo box con las opciones de b?squeda.
      */
     private JComboBox comboBusqueda;
 
     /**
-     * Botón Ordenar.
+     * Bot?n Ordenar.
      */
     private JButton btnOrdenar;
 
     /**
-     * Botón Buscar.
+     * Bot?n Buscar.
      */
     private JButton btnBuscar;
 
@@ -122,14 +122,14 @@ public class PanelOperaciones extends JPanel implements ActionListener
 
     /**
      * Constructor del panel.
-     * @param pPrincipal Ventana principal de la aplicación. pPrincipal != null.
+     * @param pPrincipal Ventana principal de la aplicaci?n. pPrincipal != null.
      */
     public PanelOperaciones( InterfazCentroDeConvenciones pPrincipal )
     {
         principal = pPrincipal;
 
         setLayout( new GridLayout( 1, 4, 5, 5 ) );
-        setBorder( new TitledBorder( " Ordenamientos y búsquedas " ) );
+        setBorder( new TitledBorder( " Ordenamientos y b?squedas " ) );
 
         comboOrdenamiento = new JComboBox( );
         comboOrdenamiento.addItem( ORDENAR_NOMBRE );
@@ -159,7 +159,7 @@ public class PanelOperaciones extends JPanel implements ActionListener
 
     /**
      * Manejo de los eventos de los botones.
-     * @param pEvento Acción que generó el evento. pEvento != null.
+     * @param pEvento Acci?n que gener? el evento. pEvento != null.
      */
     public void actionPerformed( ActionEvent pEvento )
     {

@@ -9,6 +9,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.border.TitledBorder;
 
+import interfazbrutal.Interfazbrutalbro;
+
 public class PanelOpciones extends JPanel implements ActionListener{
 
 	private static final long serialVersionUID = 1L;
@@ -31,7 +33,7 @@ public class PanelOpciones extends JPanel implements ActionListener{
 
 	private JButton btnOpcion2;
 
-	public PanelOpciones(InterfazNonograma pPrincipal) {
+	public PanelOpciones(Interfazbrutalbro pPrincipal) {
 		
 		principal = pPrincipal;
 		

@@ -12,6 +12,8 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 import javax.swing.border.TitledBorder;
 
+import interfazbrutal.Interfazbrutalbro;
+
 public class BotonesCentro extends JPanel implements ActionListener{
 	
 
@@ -29,7 +31,7 @@ public class BotonesCentro extends JPanel implements ActionListener{
 
 	private String rutaImagen;
 
-	public BotonesCentro(InterfazNonograma pPrincipal) {
+	public BotonesCentro(Interfazbrutalbro pPrincipal) {
 		
 		principal = pPrincipal;
 		matriz = new JButton[numFilas][numColumnas];

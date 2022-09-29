@@ -96,7 +96,7 @@ public class DialogoAgregarEspacio extends JDialog implements ActionListener
     private JTextField txtCostoHora;
 
     /**
-     * Campo de texto con el tamaño del espacio.
+     * Campo de texto con el tama?o del espacio.
      */
     private JTextField txtTamanio;
 
@@ -166,7 +166,7 @@ public class DialogoAgregarEspacio extends JDialog implements ActionListener
         txtCostoHora = new JTextField( );
         panelInfo1.add( txtCostoHora );
 
-        panelInfo1.add( new JLabel( " Tamaño (m2): " ) );
+        panelInfo1.add( new JLabel( " Tama?o (m2): " ) );
         txtTamanio = new JTextField( );
         panelInfo1.add( txtTamanio );
 
@@ -174,7 +174,7 @@ public class DialogoAgregarEspacio extends JDialog implements ActionListener
         txtNombreResponsable = new JTextField( );
         panelInfo1.add( txtNombreResponsable );
 
-        JLabel etiquetaTiempo = new JLabel( "¿Tiene internet?" );
+        JLabel etiquetaTiempo = new JLabel( "?Tiene internet?" );
         etiquetaTiempo.setHorizontalAlignment( JLabel.LEFT );
         panelInfo1.add( etiquetaTiempo );
         chkInternet = new JCheckBox( "" );
@@ -249,7 +249,7 @@ public class DialogoAgregarEspacio extends JDialog implements ActionListener
                     }
                     else
                     {
-                        JOptionPane.showMessageDialog( this, "La capacidad, costo por hora y tamaño del espacio deben ser mayor a cero.", "Error", JOptionPane.ERROR_MESSAGE );
+                        JOptionPane.showMessageDialog( this, "La capacidad, costo por hora y tama?o del espacio deben ser mayor a cero.", "Error", JOptionPane.ERROR_MESSAGE );
                     }
                 }
                 catch( NumberFormatException ex )

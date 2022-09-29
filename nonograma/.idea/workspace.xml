@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cba2c67-6762-431c-aa4e-43902b878ccf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEspacio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEspacio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEvento.class" beforeDir="false" afterPath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/DialogoAgregarEvento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/InterfazCentroDeConvenciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/InterfazCentroDeConvenciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelInformacionEspacio.class" beforeDir="false" afterPath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelInformacionEspacio.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOpciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOpciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOperaciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/../n8_centroDeConvenciones/classes/uniandes/cupi2/centroDeConvenciones/interfaz/PanelOperaciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/interfaz/Arriba.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/interfaz/Arriba.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/interfaz/BotonesCentro.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/interfaz/BotonesCentro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/interfaz/Derecha.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/interfaz/Derecha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/interfaz/InterfazNonograma.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/interfaz/InterfazNonograma.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/interfaz/Izquierda.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/interfaz/Izquierda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/interfaz/PanelOpciones.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/interfaz/PanelOpciones.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/interfaz/PanelTablero.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/interfaz/PanelTablero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/mundo/MatrizTablero.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/mundo/MatrizTablero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/interfaz/BotonesCentro.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/interfaz/BotonesCentro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/interfaz/PanelOpciones.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/interfaz/PanelOpciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/interfaz/PanelTablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/interfaz/PanelTablero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/mundo/MatrizTablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/source/mundo/MatrizTablero.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FEsiACp11cp3VenDZjvc71XMZ2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mauneven/Documents/mauneven/Java/n8_centroDeConvenciones&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cba2c67-6762-431c-aa4e-43902b878ccf" name="Changes" comment="" />
+      <created>1664068709905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664068709905</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

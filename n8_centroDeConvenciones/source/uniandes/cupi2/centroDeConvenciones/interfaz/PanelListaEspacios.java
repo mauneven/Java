@@ -1,7 +1,7 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogot? - Colombia)
+ * Departamento de Ingenier?a de Sistemas y Computaci?n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -52,7 +52,7 @@ public class PanelListaEspacios extends JPanel implements ListSelectionListener,
     // -----------------------------------------------------------------
 
     /**
-     * Ventana principal de la aplicación.
+     * Ventana principal de la aplicaci?n.
      */
     private InterfazCentroDeConvenciones interfaz;
 
@@ -71,7 +71,7 @@ public class PanelListaEspacios extends JPanel implements ListSelectionListener,
     private JScrollPane scroll;
 
     /**
-     * Botón para agregar un nuevo espacio.
+     * Bot?n para agregar un nuevo espacio.
      */
     private JButton botonAgregar;
 
@@ -81,7 +81,7 @@ public class PanelListaEspacios extends JPanel implements ListSelectionListener,
 
     /**
      * Constructor del panel.
-     * @param pPrincipal Ventana principal de la aplicación. pPrincipal != null.
+     * @param pPrincipal Ventana principal de la aplicaci?n. pPrincipal != null.
      */
     public PanelListaEspacios( InterfazCentroDeConvenciones pPrincipal )
     {
@@ -109,7 +109,7 @@ public class PanelListaEspacios extends JPanel implements ListSelectionListener,
     }
 
     // -----------------------------------------------------------------
-    // Métodos
+    // M?todos
     // -----------------------------------------------------------------
 
     /**
@@ -127,7 +127,7 @@ public class PanelListaEspacios extends JPanel implements ListSelectionListener,
     }
     
     /**
-     * Actualiza la lista de espacios con la lista recibida por parámetro.
+     * Actualiza la lista de espacios con la lista recibida por par?metro.
      * @param pNuevaLista Lista con los espacios. pNuevaLista != null.
      */
     public void refrescarLista( ArrayList pNuevaLista )
@@ -141,7 +141,7 @@ public class PanelListaEspacios extends JPanel implements ListSelectionListener,
 
     /**
      * Actualiza el espacio seleccionado.
-     * @param pIndice Posición del espacio que se debe seleccionar.
+     * @param pIndice Posici?n del espacio que se debe seleccionar.
      */
     public void seleccionar( int pIndice )
     {
@@ -150,8 +150,8 @@ public class PanelListaEspacios extends JPanel implements ListSelectionListener,
     }
 
     /**
-     * Método para atender el evento cuando un usuario selecciona un espacio de la lista.
-     * @param pEvento Evento de selección de un elemento de la lista de espacios. pEvento != null.
+     * M?todo para atender el evento cuando un usuario selecciona un espacio de la lista.
+     * @param pEvento Evento de selecci?n de un elemento de la lista de espacios. pEvento != null.
      */
     public void valueChanged( ListSelectionEvent pEvento )
     {
@@ -164,7 +164,7 @@ public class PanelListaEspacios extends JPanel implements ListSelectionListener,
 
     /**
      * Manejo de los eventos de los botones.
-     * @param pEvento Acción que generó el evento. pEvento != null.
+     * @param pEvento Acci?n que gener? el evento. pEvento != null.
      */
     public void actionPerformed( ActionEvent pEvento )
     {

@@ -1,7 +1,7 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogot? - Colombia)
+ * Departamento de Ingenier?a de Sistemas y Computaci?n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -30,7 +30,7 @@ import javax.swing.JTextField;
 import javax.swing.border.TitledBorder;
 
 /**
- * Diálogo para agregar un nuevo evento.
+ * Di?logo para agregar un nuevo evento.
  */
 public class DialogoAgregarEvento extends JDialog implements ActionListener
 {
@@ -39,7 +39,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Constante que representa el cambio en la selección del combo box mes.
+     * Constante que representa el cambio en la selecci?n del combo box mes.
      */
     private final static String COMBO_MES = "Combo mes";
 
@@ -63,7 +63,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Ventana principal de la aplicación.
+     * Ventana principal de la aplicaci?n.
      */
     private InterfazCentroDeConvenciones principal;
 
@@ -87,7 +87,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
     private JTextField txtImagen;
 
     /**
-     * Combo box con el día del evento.
+     * Combo box con el d?a del evento.
      */
     private JComboBox cbDia;
 
@@ -97,7 +97,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
     private JComboBox cbMes;
 
     /**
-     * Combo box con el año del evento.
+     * Combo box con el a?o del evento.
      */
     private JComboBox cbAnio;
 
@@ -112,7 +112,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
     private JComboBox cbHoraFin;
 
     /**
-     * Área de texto con la descripción del evento.
+     * ?rea de texto con la descripci?n del evento.
      */
     private JTextArea areaDescripcion;
 
@@ -122,17 +122,17 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
     private JScrollPane scrollDescripcion;
 
     /**
-     * Botón para agregar.
+     * Bot?n para agregar.
      */
     private JButton btnAgregar;
 
     /**
-     * Botón para cancelar.
+     * Bot?n para cancelar.
      */
     private JButton btnCancelar;
 
     /**
-     * Botón Seleccionar Imagen.
+     * Bot?n Seleccionar Imagen.
      */
     private JButton btnSeleccionar;
 
@@ -141,8 +141,8 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Crea un nuevo diálogo para agregar un evento a un espacio.
-     * @param pPrincipal Ventana principal de la aplicación. pPrincipal != null.
+     * Crea un nuevo di?logo para agregar un evento a un espacio.
+     * @param pPrincipal Ventana principal de la aplicaci?n. pPrincipal != null.
      */
     public DialogoAgregarEvento( InterfazCentroDeConvenciones pPrincipal )
     {
@@ -168,7 +168,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
         panelAux.setLayout( new GridLayout( 1, 3 ) );
 
         cbAnio = new JComboBox( );
-        cbAnio.addItem( "Año" );
+        cbAnio.addItem( "A?o" );
         cbAnio.addItem( "2017" );
         cbAnio.addItem( "2018" );
         cbAnio.addItem( "2019" );
@@ -188,7 +188,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
         panelAux.add( cbMes );
 
         cbDia = new JComboBox( );
-        cbDia.addItem( "Día" );
+        cbDia.addItem( "D?a" );
         cbDia.setSelectedItem( 0 );
         panelAux.add( cbDia );
 
@@ -246,7 +246,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
         scrollDescripcion.setPreferredSize( new Dimension( 0, 80 ) );
         scrollDescripcion.setHorizontalScrollBarPolicy( JScrollPane.HORIZONTAL_SCROLLBAR_NEVER );
         scrollDescripcion.setVerticalScrollBarPolicy( JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED );
-        scrollDescripcion.setBorder( new TitledBorder( "Descripción: " ) );
+        scrollDescripcion.setBorder( new TitledBorder( "Descripci?n: " ) );
 
         JPanel panelEventos = new JPanel( );
         panelEventos.setLayout( new BorderLayout( ) );
@@ -273,12 +273,12 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
         pack( );
     }
     // -----------------------------------------------------------------
-    // Métodos
+    // M?todos
     // -----------------------------------------------------------------
 
     /**
      * Manejo de los eventos de los botones.
-     * @param pEvento Acción que generó el evento.
+     * @param pEvento Acci?n que gener? el evento.
      */
     public void actionPerformed( ActionEvent pEvento )
     {
@@ -292,7 +292,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
                 if( mes == 2 )
                 {
                     cbDia.removeAllItems( );
-                    cbDia.addItem( "Día" );
+                    cbDia.addItem( "D?a" );
                     for( int i = 1; i <= 28; i++ )
                     {
                         cbDia.addItem( i + "" );
@@ -301,7 +301,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
                 else if( mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12 )
                 {
                     cbDia.removeAllItems( );
-                    cbDia.addItem( "Día" );
+                    cbDia.addItem( "D?a" );
                     for( int i = 1; i <= 31; i++ )
                     {
                         cbDia.addItem( i + "" );
@@ -310,7 +310,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
                 else
                 {
                     cbDia.removeAllItems( );
-                    cbDia.addItem( "Día" );
+                    cbDia.addItem( "D?a" );
                     for( int i = 1; i <= 30; i++ )
                     {
                         cbDia.addItem( i + "" );
@@ -359,7 +359,7 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
                             int asistentes = Integer.parseInt( cantidadAsistentes );
                             if( asistentes < 0 )
                             {
-                                JOptionPane.showMessageDialog( this, "La cantidad de asistentes debe ser un número mayor a 0.", "Agregar evento", JOptionPane.ERROR_MESSAGE );
+                                JOptionPane.showMessageDialog( this, "La cantidad de asistentes debe ser un n?mero mayor a 0.", "Agregar evento", JOptionPane.ERROR_MESSAGE );
                             }
                             else
                             {
@@ -371,13 +371,13 @@ public class DialogoAgregarEvento extends JDialog implements ActionListener
                         }
                         catch( NumberFormatException e )
                         {
-                            JOptionPane.showMessageDialog( this, "La cantidad de asistentes deben ser un número.", "Agregar evento", JOptionPane.ERROR_MESSAGE );
+                            JOptionPane.showMessageDialog( this, "La cantidad de asistentes deben ser un n?mero.", "Agregar evento", JOptionPane.ERROR_MESSAGE );
                         }
                     }
                 }
                 catch( NumberFormatException e )
                 {
-                    JOptionPane.showMessageDialog( this, "Debe seleccionar una fecha válida.", "Agregar evento", JOptionPane.ERROR_MESSAGE );
+                    JOptionPane.showMessageDialog( this, "Debe seleccionar una fecha v?lida.", "Agregar evento", JOptionPane.ERROR_MESSAGE );
                 }
             }
             else

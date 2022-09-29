@@ -1,7 +1,7 @@
 /**
  * ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- * Universidad de los Andes (Bogotá - Colombia)
- * Departamento de Ingeniería de Sistemas y Computación 
+ * Universidad de los Andes (Bogot? - Colombia)
+ * Departamento de Ingenier?a de Sistemas y Computaci?n 
  * Licenciado bajo el esquema Academic Free License version 2.1 
  *
  * Proyecto Cupi2 (http://cupi2.uniandes.edu.co)
@@ -30,12 +30,12 @@ public class PanelOpciones extends JPanel implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Comando Opción 1.
+     * Comando Opci?n 1.
      */
     private static final String OPCION_1 = "OPCION_1";
 
     /**
-     * Comando Opción 2.
+     * Comando Opci?n 2.
      */
     private static final String OPCION_2 = "OPCION_2";
 
@@ -49,7 +49,7 @@ public class PanelOpciones extends JPanel implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Ventana principal de la aplicación.
+     * Ventana principal de la aplicaci?n.
      */
     private InterfazCentroDeConvenciones principal;
 
@@ -58,17 +58,17 @@ public class PanelOpciones extends JPanel implements ActionListener
     // -----------------------------------------------------------------
 
     /**
-     * Botón Opción 1.
+     * Bot?n Opci?n 1.
      */
     private JButton btnOpcion1;
 
     /**
-     * Botón Opción 2.
+     * Bot?n Opci?n 2.
      */
     private JButton btnOpcion2;
 
     /**
-     * Botón para generar reporte.
+     * Bot?n para generar reporte.
      */
     private JButton btnGenerarReporte;
 
@@ -87,32 +87,32 @@ public class PanelOpciones extends JPanel implements ActionListener
         setBorder( new TitledBorder( "Opciones" ) );
         setLayout( new GridLayout( 1, 3 ) );
 
-        // Botón reporte
+        // Bot?n reporte
         btnGenerarReporte = new JButton( "Generar reporte" );
         btnGenerarReporte.setActionCommand( GENERAR_REPORTE );
         btnGenerarReporte.addActionListener( this );
         add( btnGenerarReporte );
 
-        // Botón opción 1
-        btnOpcion1 = new JButton( "Opción 1" );
+        // Bot?n opci?n 1
+        btnOpcion1 = new JButton( "Opci?n 1" );
         btnOpcion1.setActionCommand( OPCION_1 );
         btnOpcion1.addActionListener( this );
         add( btnOpcion1 );
 
-        // Botón opción 2
-        btnOpcion2 = new JButton( "Opción 2" );
+        // Bot?n opci?n 2
+        btnOpcion2 = new JButton( "Opci?n 2" );
         btnOpcion2.setActionCommand( OPCION_2 );
         btnOpcion2.addActionListener( this );
         add( btnOpcion2 );
     }
 
     // -----------------------------------------------------------------
-    // Métodos
+    // M?todos
     // -----------------------------------------------------------------
 
     /**
      * Manejo de los eventos de los botones
-     * @param pEvento Acción que generó el evento. pEvento != null.
+     * @param pEvento Acci?n que gener? el evento. pEvento != null.
      */
     public void actionPerformed( ActionEvent pEvento )
     {

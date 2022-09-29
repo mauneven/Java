@@ -7,13 +7,14 @@ import javax.swing.JButton;
 import javax.swing.JOptionPane;
 
 import interfaz.InterfazNonograma;
+import interfazbrutal.Interfazbrutalbro;
 
 
 public class MatrizTablero {
 
-	private InterfazNonograma principal;
+	private Interfazbrutalbro principal;
 
-	public MatrizTablero(InterfazNonograma pPrincipal) {
+	public MatrizTablero(Interfazbrutalbro pPrincipal) {
 		principal = pPrincipal;
 	}
 
